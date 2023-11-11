@@ -1,0 +1,300 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.architecture__body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.architecture__body .wrapper__section{
+    margin: 77px 0;
+}
+
+.architecture__body .wrapper__container{
+    max-width: 729px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.architecture__body .wrapper__container.fuller{
+    max-width: 920px;
+}
+
+.architecture__body .wrapper__section .builder__heading{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.architecture__body .wrapper__section .builder__heading .top-heading{
+    color: #389155;
+    text-align: center;
+    font-size: 34.4px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.architecture__body .wrapper__section .builder__heading .main-heading{
+    color: #389155;
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+.architecture__body .wrapper__section .card__img{
+    max-width: 1440px;
+    width: 100%;
+    height: var(--height);
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.architecture__body .wrapper__section .card__img img{
+    object-fit: cover;
+    image-rendering: pixelated;
+    width: 100%;
+    height: 100%;
+}
+
+.architecture__body .wrapper__container.default{
+    max-width: 540px;
+    width: auto;
+    margin: 0 auto;
+}
+
+.architecture__body .section__content{
+    margin-top: 44px;
+}
+
+.architecture__body .wrapper__section .box__message{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.architecture__body .wrapper__section .main__header{
+    color: #389155;
+    text-align: left;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.architecture__body .section__content .main__content ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.architecture__body .section__content .main__content p{
+    color: #1D1D1D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;
+    margin: 0;
+}
+
+
+.architecture__body .section__header .group__owner-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #389155;
+    color: #fff;
+}
+
+.architecture__body .section__header .group__owner-info .info__left,
+.architecture__body .section__header .group__owner-info .info__right{
+    flex: 0 0 50%;
+    width: 50%;
+}
+
+.architecture__body .group__owner-info .info__left .owner__img{
+    width: 100%;
+    height: 455px;
+    overflow: hidden;
+}
+
+.architecture__body .group__owner-info .info__left .owner__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.architecture__body .section__header .group__owner-info .info__right .info__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.architecture__body .section__header .group__owner-info .info__right .info__content p{
+    max-width: 456px;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: justify;
+    font-style: italic;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.architecture__body .section__content .main__content p .botble{
+    font-style: italic;
+    color: #389155;
+}
+
+.architecture__body .wrapper__section .card__img.thurst{
+    height: auto;
+    object-fit: contain;
+    image-rendering: pixelated;
+}
+
+@media screen and (min-width:1440px) {
+    .architecture__body{
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:1440.98px) {
+    .architecture__body{
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:1024.98px) {
+    .architecture__body .section__header .group__owner-info .info__right .info__content p{
+        max-width: 400px;
+    }
+}
+
+
+@media screen and (max-width: 768.98px) {
+    .architecture__body .wrapper__container.fuller{
+        max-width: 608px;
+        width: auto;
+    }
+
+    .architecture__body .wrapper__container.default{
+        max-width: 540px;
+    }
+
+    .architecture__body .wrapper__section.header__top{
+        margin-top: 10px;
+        margin-bottom: 80px;
+    }
+
+    .architecture__body .wrapper__section .builder__heading .main-heading{
+        font-size: 50px;
+    }
+
+    .architecture__body .wrapper__section .main__header{
+        font-size: 25px;
+    }
+
+    .architecture__body .section__content .main__content p{
+        text-align: justify;
+    }
+
+    .architecture__body .section__header .group__owner-info .info__right .info__content p{
+        max-width: 250px;
+        text-align: left;
+    }
+
+    .architecture__body .group__owner-info .info__left .owner__img{
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1/1.45;
+        overflow: hidden;
+    }
+
+
+}
+
+@media screen and (max-width: 580.98px){
+    .architecture__body .wrapper__container.default{
+        max-width: 340px;
+    }
+}
+
+@media screen and (max-width: 425.98px) {
+    .architecture__body .wrapper__section .builder__heading .top-heading{
+        font-size: 30px;
+    }
+    
+    .architecture__body .wrapper__section .builder__heading .main-heading{
+        font-size: 45px;
+    }
+
+    .architecture__body .wrapper__section.header__top{
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+
+    .architecture__body .wrapper__section{
+        margin: 40px 0;
+    }
+
+    .architecture__body .section__content{
+        margin-top: 24px;
+    }
+
+    .architecture__body .wrapper__container.default{
+        max-width: 340px;
+    }
+    
+    .architecture__body .section__header .group__owner-info .info__right .info__content p{
+        max-width: 142px;
+        font-size: 16px;
+    }
+    .architecture__body .wrapper__section .card__img.one img{
+        object-position: -445px 0px;
+    }
+
+    .architecture__body .wrapper__section .card__img.thurst{
+        height: auto;
+        object-fit: contain;
+    }
+}
+
+@media screen and (max-width: 375.98px) {
+    .architecture__body .wrapper__container.fuller{
+        margin: 0 10px;
+    }
+
+    .architecture__body .wrapper__section .builder__heading .top-heading{
+        font-size: 25px;
+    }
+    
+    .architecture__body .wrapper__section .builder__heading .main-heading{
+        font-size: 40px;
+    }
+
+    .architecture__body .wrapper__container.default{
+        max-width: 290px;
+    }
+}
+
+@media screen and (max-width: 320.98px) {
+    .architecture__body .wrapper__section .builder__heading .main-heading{
+        font-size: 38px;
+    }
+
+    .architecture__body .wrapper__section .card__img{
+        height: 400px;
+    }
+}
