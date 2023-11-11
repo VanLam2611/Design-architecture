@@ -162,6 +162,10 @@ body{
     image-rendering: pixelated;
 }
 
+.architecture__body .section__content .main__content p{
+    text-align: justify;
+}
+
 @media screen and (min-width:1440px) {
     .architecture__body{
         max-width: 1440px;
@@ -204,10 +208,6 @@ body{
 
     .architecture__body .wrapper__section .main__header{
         font-size: 25px;
-    }
-
-    .architecture__body .section__content .main__content p{
-        text-align: justify;
     }
 
     .architecture__body .section__header .group__owner-info .info__right .info__content p{
