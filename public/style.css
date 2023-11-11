@@ -207,7 +207,7 @@ body{
     }
 
     .architecture__body .wrapper__section .main__header{
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .architecture__body .section__header .group__owner-info .info__right .info__content p{
@@ -233,11 +233,11 @@ body{
 
 @media screen and (max-width: 425.98px) {
     .architecture__body .wrapper__section .builder__heading .top-heading{
-        font-size: 30px;
+        font-size: 25px;
     }
     
     .architecture__body .wrapper__section .builder__heading .main-heading{
-        font-size: 45px;
+        font-size: 32px;
     }
 
     .architecture__body .wrapper__section.header__top{
@@ -259,7 +259,7 @@ body{
     
     .architecture__body .section__header .group__owner-info .info__right .info__content p{
         max-width: 142px;
-        font-size: 16px;
+        font-size: 14px;
     }
     .architecture__body .wrapper__section .card__img.one img{
         object-position: -445px 0px;
@@ -269,6 +269,10 @@ body{
         height: auto;
         object-fit: contain;
     }
+
+    .architecture__body .section__content .main__content p{
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 375.98px) {
@@ -277,15 +281,19 @@ body{
     }
 
     .architecture__body .wrapper__section .builder__heading .top-heading{
-        font-size: 25px;
+        font-size: 18px;
     }
     
     .architecture__body .wrapper__section .builder__heading .main-heading{
-        font-size: 40px;
+        font-size: 23px;
     }
 
     .architecture__body .wrapper__container.default{
         max-width: 290px;
+    }
+
+    .architecture__body .wrapper__section .main__header{
+        font-size: 18px;
     }
 }
 
